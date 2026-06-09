@@ -1,0 +1,56 @@
+#Start the local website development server
+npm run dev
+
+#Install all packages listed in package.json
+npm install
+
+#Install a specific package/library into the project
+npm install package-name
+
+#Check if Node.js is installed and display its version
+node -v
+
+#Check if npm is installed and display its version
+npm -v
+
+#Show the current status of the Git repository and which files have changed
+git status
+
+#Stage all changed files ready for commit
+git add .
+
+#Stage a specific file ready for commit
+git add filename
+
+#Create a Git checkpoint/snapshot with a message
+git commit -m "message"
+
+#Upload local commits to GitHub
+git push
+
+#Download the latest commits from GitHub
+git pull
+
+#Show the commit history of the repository
+git log
+
+#Discard local changes to a specific file that haven't been committed
+git restore filename
+
+#Connect a local repository to a remote GitHub repository
+git remote add origin repository-url
+
+#Move into a folder/directory
+cd folder-name
+
+#Move back one folder/directory level
+cd ..
+
+#List the contents of the current directory
+dir
+
+#Stop a running process in the terminal (e.g. Next.js server)
+Ctrl + C
+
+#Confirm termination of a running process when prompted
+Y
